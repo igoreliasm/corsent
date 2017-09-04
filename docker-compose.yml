@@ -14,13 +14,12 @@ services:
     image: nginx:1.13
     volumes:
       - ./web:/usr/share/nginx/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     ports:
-      - 8000:80
+      - 4000:80
   app:
     image: python:3.6
     volumes:
       - ./app:/app
     working_dir: /app
     command: bash ./app.sh
-    ports:
-      - 4040:4040
