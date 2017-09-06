@@ -1,5 +1,7 @@
 # email-workers
 
+A escalable email worker made with python, redis, nginx and docker.
+
 ### running:
 ```$ bash run.sh ```
 
