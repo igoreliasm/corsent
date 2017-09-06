@@ -1,4 +1,4 @@
-# email-workers
+# corsent
 
 A escalable email worker made with python, redis, nginx and docker.
 
