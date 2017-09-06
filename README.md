@@ -1,9 +1,9 @@
 # email-workers
 
-# running:
+### running:
 ```$ sh run.sh ```
 
-## expect:
+### expect:
 
 ```
          Name                        Command                State            Ports
