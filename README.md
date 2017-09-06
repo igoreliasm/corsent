@@ -1,7 +1,7 @@
 # email-workers
 
 ### running:
-```$ sh run.sh ```
+```$ bash run.sh ```
 
 ### expect:
 
